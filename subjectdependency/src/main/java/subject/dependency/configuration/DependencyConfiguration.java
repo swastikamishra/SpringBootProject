@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import subject.dependency.entity.Subject;
 import subject.dependency.entity.Trainer;
 
+
 @Configuration
 public class DependencyConfiguration {
 	
@@ -24,5 +25,4 @@ public class DependencyConfiguration {
        return new Trainer (subject());
   
     }
-	
 }

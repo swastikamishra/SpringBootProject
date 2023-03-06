@@ -11,12 +11,7 @@ public Subject(String name) {
 
 public String getName() {
 	return name;
-}
-
-
-	
-	
-	
-	
 
 }
+}
+
